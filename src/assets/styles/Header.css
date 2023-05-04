@@ -1,5 +1,5 @@
 .my-header {
-    background-color: #3fc98fd0;
+    background-color: #61D1A1;
   text-align: center;
   width: 800px;
   height: 90px;
@@ -8,12 +8,13 @@
   border-bottom: 3px solid gray;
 }
 .my-body {
-    background-color: #3fc98fd0;
+    background: rgb(97,209,161);
+    background: linear-gradient(180deg, rgba(97,209,161,1) 23%, rgba(86,197,160,1) 62%, rgba(52,158,155,1) 100%);
   text-align: center;
   width: 800px;
   height: 600px;
   margin: auto;
-  display: flex;
+  display: block;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -25,11 +26,35 @@
   margin: auto;
   display: flex;
   margin-bottom: 20px;
- 
- 
 }
-
-
+/*Aquí comienza el css de body*/
+a{
+  padding: 5px;
+  margin: 20px;
+  border-radius: 55%;
+}
+a:link, a:visited{
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+}
+section{
+  display: grid;
+  padding: 5px;
+}
+.album{
+  margin-top: 15px;
+}
+.song{
+  margin-top: 10px;
+  font-size: larger;
+}
+.mediaIco1{
+  margin-top: 10px;
+}
+.mediaIco2{
+  margin-top: 25px;
+}
+/*Aquí termina el style de body*/
 .icono {
     display: inline-block; /* Para que se alinee con el texto */
     margin-right: 10px; /* Para agregar un espacio a la derecha del icono */

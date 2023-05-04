@@ -5,11 +5,11 @@ import '../assets/styles/Header.css';
 export const Footer = () => {
   return (
     <>
-    <div className="my-footer">
+    <footer className="my-footer">
     
     
     
-    </div>
+    </footer>
     </>
   )
 }
