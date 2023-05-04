@@ -21,43 +21,6 @@
     "lint": "eslint --ignore-path .gitignore . && stylelint **/*.scss",
     "lint:fix": "eslint --fix --ignore-path .gitignore . && stylelint --fix **/*.scss"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "eslint-config-codely/typescript"
-    ],
-    "parserOptions": {
-      "project": [
-        "./tsconfig.json"
-      ]
-    },
-    "settings": {
-      "import/resolver": {
-        "node": {
-          "extensions": [
-            ".js",
-            ".jsx",
-            ".ts",
-            ".tsx"
-          ]
-        }
-      }
-    },
-    "overrides": [
-      {
-        "files": [
-          "**/tests/e2e/**/*.spec.ts"
-        ],
-        "rules": {
-          "testing-library/await-async-query": 0,
-          "@typescript-eslint/no-unsafe-member-access": 0,
-          "@typescript-eslint/no-unsafe-call": 0,
-          "testing-library/prefer-screen-queries": 0
-        }
-      }
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -87,10 +50,6 @@
     "jest-transform-stub": "^2.0.0",
     "prettier": "^2.8.8",
     "sass": "^1.62.1",
-    "stylelint": "^14.16.1",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard-scss": "^3.0.0",
-    "stylelint-order": "^5.0.0",
     "typescript": "^4.9.5"
   }
 }
