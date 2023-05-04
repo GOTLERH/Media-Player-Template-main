@@ -1,0 +1,41 @@
+.my-header {
+    background-color: #3fc98fd0;
+  text-align: center;
+  width: 800px;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  border-bottom: 3px solid gray;
+}
+.my-body {
+    background-color: #3fc98fd0;
+  text-align: center;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.my-footer {
+    background-color: #161616d0;
+  text-align: center;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 20px;
+ 
+ 
+}
+
+
+.icono {
+    display: inline-block; /* Para que se alinee con el texto */
+    margin-right: 10px; /* Para agregar un espacio a la derecha del icono */
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 50px; /* Para aumentar el tamaño del icono */
+    
+  }
+  
