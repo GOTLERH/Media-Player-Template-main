@@ -13,13 +13,13 @@ export const Body = () => {
     <main className="my-body">
     <section>
       <article className="album">
-        <img src="#" alt="Picture" />
+        <img src="https://compote.slate.com/images/caa4b707-3470-4e0c-93ad-a7457bd02eb3.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=960" alt="Picture" />
         <h2>Artist</h2>
         <h2>Album</h2>
-        <h2>Song's name.</h2>
+        <h2 className="songName">Song's name</h2>
       </article>
       <article className="song">
-        <h3>-------Aquí va el timing de la canción.------</h3>
+        <input className="barra" type="range" />
       </article>
       <article className="mediaIco1">
         <a href="#" className="arrow"><FontAwesomeIcon icon={ faAnglesLeft } size="3x" /></a>
